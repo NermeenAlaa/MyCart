@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             tools:listitem="@layout/cart_row"
-            tools:itemCount="5"
+           tools:itemCount="3"
             />
 
         <Space
@@ -40,6 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:layout_margin="8dp"
+            android:textColor="@android:color/black"
             android:text="Place Order"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Caption" />
 
